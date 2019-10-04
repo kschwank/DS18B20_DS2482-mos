@@ -224,7 +224,7 @@ void DS2482::wireSkip()
 	wireWriteByte(0xcc);
 }
 
-void DS2482::wireSelect(uint8_t rom[8])
+void DS2482::wireSelect(const uint8_t rom[8])
 {
 	wireWriteByte(0x55);
 	for (int i=0;i<8;i++)
