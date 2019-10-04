@@ -332,7 +332,7 @@ uint8_t DS2482::devicesCount(bool printAddress){
 // "Understanding and Using Cyclic Redundancy Checks with Maxim iButton Products"
 //
 
-uint8_t DS2482::crc8( uint8_t *addr, uint8_t len)
+uint8_t DS2482::crc8(const uint8_t *addr, uint8_t len)
 {
 	uint8_t crc=0;
 
