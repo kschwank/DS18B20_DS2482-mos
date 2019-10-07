@@ -1,10 +1,16 @@
-# DS18B20_DS2482
+# DS18B20_DS2482 Port for Mongoose OS
+
+This library allows using the DS2482 I2C to OneWire bridge to
+communicate with OneWire devices like for example the DS18B20
+temperature sensors.
+
+You can find the original Arduino library here:
+https://github.com/Pfannex/DS18B20_DS2482
+
 **DS2482 - I2C to 1-Wire bridge used with ESP8266 WIFI on ARDUINO**
 
 ```
 
-//ESP8266
-  #include <ESP8266WiFi.h>
 //Tools
   #include <Wire.h>             //I²C
 
